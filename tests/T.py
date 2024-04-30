@@ -1,12 +1,7 @@
-from selenium import webdriver
-import time
-import pytest
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
+from selenium import webdriver as wd
+
 global browser
-browser = webdriver.Chrome()
+browser = wd.Chrome("/usr/bin/chromedriver/")
 browser.get('https://rozetka.com.ua/')
-while (True):
-    pass
 # browser.close()
 # browser.quit()
