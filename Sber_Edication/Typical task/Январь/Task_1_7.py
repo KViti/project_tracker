@@ -1,9 +1,9 @@
 from sympy import *
+
 import numpy as np
 import random
 import math
 from openpyxl import Workbook
-
 name_holiday = ["с новогодними поздравлениями",
                 "с поздравлениями 8 марта",
                 "с поздравлениями 23 февраля",

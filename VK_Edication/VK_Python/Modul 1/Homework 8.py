@@ -7,12 +7,10 @@ for i in range(n):
         if int(k)>maximum:
             maximum=int(k)
     maxim.insert(i, maximum)
-
-while True:
-    s=input()
-    if not s:
-         break
+#
+# while True:
+#     s=input()
+#     if not s:
+#          break
 maxim.sort(reverse=True)
 print(*maxim, sep=";")
-
-
